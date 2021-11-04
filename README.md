@@ -1,8 +1,10 @@
 # Envsensor
-使用センサ：M5Stack用環境センサユニット ver.2（ENV II）（M5STACK-U001-B）  
-SwitchScienceURL:<https://www.switch-science.com/catalog/6344/>  
+
 Ambient公式のM5StickCで小型環境センサ端末を作るのプログラムをベースに作成  
 
+******
+使用センサ：M5Stack用環境センサユニット ver.2（ENV II）（M5STACK-U001-B）  
+SwitchScienceURL:<https://www.switch-science.com/catalog/6344/>  
 
 M5Stack用環境センサユニットver2の仕様  
     仕様 	        パラメータ  
