@@ -4,7 +4,7 @@ SwitchScienceURL:<https://www.switch-science.com/catalog/6344/>
 Ambient公式のM5StickCで小型環境センサ端末を作るのプログラムをベースに作成  
 
 
-M5Stack用環境センサユニットver2使用  
+M5Stack用環境センサユニットver2の仕様  
     仕様 	        パラメータ  
 温度測定範囲 	    -40 ~ 120 ℃  
 標準温度許容差     0 ~ 60 ℃/±0.2 ℃  
