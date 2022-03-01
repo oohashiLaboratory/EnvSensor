@@ -45,10 +45,11 @@ void loop()
     if(sht30.get() == 0)
     {
       temp = sht30.cTemp;               //温度取り込み
-      hum = sht30.humidity;             //湿度取り込み
+      //hum = sht30.humidity;             //湿度取り込み
     }
     
-    if(hAveTemp == 0)
+    //い時間平均気温計算
+    if(hAveTemp == 0)   
     {
         hAveTemp = temp; 
     }
@@ -100,9 +101,8 @@ void ambient_access()
 
     //Ambientに送信するデータをセット 
     ambient.set(1, temp);
-    ambient.set(2, hum);
+    //ambient.set(2, hum);
     ambient.set(3, hAveTemp);
-    
     
     ambient.send();                   //ambientにデータを送信
     
@@ -112,7 +112,7 @@ void lcd_display()
 {
     //LCDにデータを表示
     M5.Lcd.setCursor(0, 0, 1);      //カーソル位置を変更
-    M5.Lcd.printf("temp: %4.1f'C\r\n", temp);
-    M5.Lcd.printf("humid:%4.1f%%\r\n", hum);
-    M5.Lcd.printf("temp: %4.1f'C\r\n", hAveTemp);
+    M5.Lcd.printf("temp: %4.1f'C\r\n", temp);   //温度表示
+    //M5.Lcd.printf("humid:%4.1f%%\r\n", hum);  //気圧表示
+    M5.Lcd.printf("temp: %4.1f'C\r\n", hAveTemp);   //1時間平均温度
 }
