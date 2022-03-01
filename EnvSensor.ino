@@ -48,7 +48,7 @@ void loop()
       //hum = sht30.humidity;             //湿度取り込み
     }
     
-    //い時間平均気温計算
+    //1時間平均気温計算
     if(hAveTemp == 0)   
     {
         hAveTemp = temp; 
