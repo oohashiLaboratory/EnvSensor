@@ -6,7 +6,7 @@ Ambient公式のM5StickCで小型環境センサ端末を作るのプログラ�
 
 ----
 使用センサ：M5Stack用環境センサユニット ver.2（ENV II）（M5STACK-U001-B）  
-SwitchScienceURL:<https://www.switch-science.com/catalog/6344/>  
+ENV2SwitchScience URL:<https://www.switch-science.com/catalog/6344/>  
 
 M5Stack用環境センサユニットver2の仕様  
       
@@ -24,4 +24,5 @@ M5Stack用環境センサユニットver2の仕様
 |　ケース材質　|       プラスチック（PC）       |  
 
 ※Ⅱは販売が終了し、M5Stack用環境センサユニット ver.3（ENV Ⅲ）に変更する。Ⅲになっても温度センサは変わらないため温度取得自体はこのままでも可能
-ただし気圧センサが変更されているため気圧を取得する場合は変更が必要
+ただし気圧センサが変更されているため気圧を取得する場合は変更が必要  
+ENV3 URL:<https://www.switch-science.com/catalog/7254/>
