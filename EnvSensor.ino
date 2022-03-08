@@ -12,7 +12,7 @@ SHT3X sht30;        //M5Stack用環境センサユニット ver.2
 #define TIME_TO_SLEEP 600        // ESP32がスリープ状態になる時間（秒単位)
 
 //関数プロトタイプ宣言
-void get_data(void);
+//void get_data(void);
 void wifi_conect(void);
 void ambient_access(void);
 void lcd_display(void);
